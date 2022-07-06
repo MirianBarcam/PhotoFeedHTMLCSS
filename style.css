@@ -12,18 +12,20 @@ body {
 }
 
 .title_header {
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 .number_card {
-    font-size: 1vw;
+    font-size: 2vw;
     color: cadetblue;
+    margin-right: 2vw;
 }
 
 .card {
     background-color: white;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 5%;
 }
 
 .header_card {
@@ -31,7 +33,7 @@ body {
     flex: row;
     align-items: center;
     height: 3vw;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .title_card {
@@ -43,8 +45,9 @@ body {
     width: 100%;
 }
 
-
-
-* {
-    border: 1px solid red;
+.description_card {
+    font-size: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-bottom: 1vw;
 }
